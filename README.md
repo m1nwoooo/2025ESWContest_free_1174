@@ -1,21 +1,5 @@
 # 2024ESWContest_free_1125
 
-## 🔖 Intro
-
-## 💡 Inspiration
-
-## 📸 Overview
-
-<br>
-
-
-## 👀 Main feature
-
-## File Architecture
-
-
-## Video
-
 
 ## Team Member
 
