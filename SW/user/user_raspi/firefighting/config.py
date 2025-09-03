@@ -42,12 +42,10 @@ MODE_EDGE_COLORS = {
 
 # Edge detection settings
 EDGE_RESOLUTION_OPTIONS = [
-    ("640x360", 640, 360, "HIGH PERFORMANCE - Fastest processing"),
-    ("832x468", 832, 468, "BALANCED - Good speed and quality"),
-    ("1024x576", 1024, 576, "ENHANCED - Better quality, slower"),
-    ("1280x720", 1280, 720, "HIGH QUALITY - Detailed edges, moderate speed"),
-    ("1664x936", 1664, 936, "ULTRA QUALITY - Very detailed, slower"),
-    ("3200x1800", 3200, 1800, "MAXIMUM QUALITY - Best edges, slowest")
+    ("1024x576", 1024, 576, "HIGH PERFORMANCE - Fastest processing"),
+    ("1280x720", 1280, 720, "BALANCED - Good speed and quality"),
+    ("1664x936", 1664, 936, "HIGH QUALITY - Detailed edges, moderate speed"),
+    ("3200x1800", 2560, 1440, "MAXIMUM QUALITY - Best edges, slowest")
 ]
 
 DEFAULT_EDGE_RESOLUTION_INDEX = 4
