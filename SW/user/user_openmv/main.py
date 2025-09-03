@@ -24,7 +24,7 @@ def get_temperature():
     temperature = ((pixel_avg * temp_range) / 255.0) + MIN_TEMP
     
     if 0.0 <= temperature <= 150.0 and pixel_avg > 0:
-        return temperature, roi_size * roi_size
+        return temperature
     else:
         return -999.0, 0 #에러 발생시
 
@@ -44,22 +44,21 @@ while True:
             
             if cmd == b"snap":
                 if not temp_mode:
-                    img = sensor.snapshot().to_jpeg(quality=95)
+                    img = sensor.snapshot().to_jpeg(quality=100)
                 else:
                     img = sensor.snapshot()
-                    temperature, pixel_count = get_temperature()
+                    temperature= get_temperature()
                     
                     if temperature > -900:
                         temp_text = f"{temperature:.1f}C"
-                        img.draw_string(3, 3, temp_text, color=255, scale=2)
-                        img.draw_rectangle(69, 49, 21, 21, color=255, thickness=1)
-                        img.draw_cross(79, 59, color=255, size=8, thickness=2)
+                        img.draw_string(3, 3, temp_text, color=255, scale=1)
+                        img.draw_cross(79, 59, color=255, size=6, thickness=1)
                         pixel_text = f"px:{pixel_count}"
                         img.draw_string(3, 25, pixel_text, color=255, scale=1)
                     else:
                         img.draw_string(3, 3, "TEMP ERR", color=255, scale=2)
                     
-                    img = img.to_jpeg(quality=95)
+                    img = img.to_jpeg(quality=100)
                 
                 usb.send(struct.pack("<L", img.size()))
                 usb.send(img)
