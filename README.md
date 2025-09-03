@@ -28,7 +28,7 @@
     │    │           ├── init.py
     │    │           └── file_monitor.py                # 텍스트 파일 모니터링
     │    └── user_openmv/                               # OpenMV 열화상 카메라
-    │       └── main.py                                # OpenMV 카메라 제어 스크립트
+    │        └── main.py                                # OpenMV 카메라 제어 스크립트
     │    
     │    
     │── node/
