@@ -1,0 +1,4 @@
+#Note: This code is intended for review purposes only and is not meant to be executed.
+#audio tx udp port: 7002, audio stream_id: 177_uplink
+
+sudo wfb_tx -f data -p 177 -u 7002 -K /etc/server.key -k 2 -n 5 -M 1 -i 7669206 wlxfc221c30076b
