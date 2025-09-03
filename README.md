@@ -4,7 +4,7 @@
 
 ## File Architecture
     SW/
-    └── user/
+    ├── user/
     │    ├── user_raspi/                                 # Raspberry Pi 메인 시스템
     │    │   └── firefighting/
     │    │       ├── main.py                            # 메인 실행 파일
@@ -34,16 +34,17 @@
     │── node/
     │   
     │   
-    │── server/
+    └── server/
     
     HW/
     ├── 본체/
     │    
     ├── 정면부/
     │   
-    │   
     └── 후면부/
+    
 #한수민통신추가
+
 <br>
 
 | 팀원 | 역할 |
