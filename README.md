@@ -9,6 +9,7 @@
 
 firefighting/
 ├── main.py                    # 메인 실행 파일
+
 ├── config.py                  # 전역 설정 (상수, 경로 등)
 ├── core/
 │   ├── __init__.py
