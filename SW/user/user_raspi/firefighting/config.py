@@ -42,15 +42,15 @@ MODE_EDGE_COLORS = {
 
 # Edge detection settings
 EDGE_RESOLUTION_OPTIONS = [
-    ("1600x900", 1600, 900, "HIGH PERFORMANCE - Fastest processing"),
-    ("1920x1080", 1920, 1080, "BALANCED - Good speed and quality"),
-    ("2240x1260", 2240, 1260, "ENHANCED - Better quality, slower"),
-    ("2560x1440", 2560, 1440, "HIGH QUALITY - Detailed edges, moderate speed"),
-    ("2880x1620", 2880, 1620, "ULTRA QUALITY - Very detailed, slower"),
+    ("640x360", 640, 360, "HIGH PERFORMANCE - Fastest processing"),
+    ("832x468", 832, 468, "BALANCED - Good speed and quality"),
+    ("1024x576", 1024, 576, "ENHANCED - Better quality, slower"),
+    ("1280x720", 1280, 720, "HIGH QUALITY - Detailed edges, moderate speed"),
+    ("1664x936", 1664, 936, "ULTRA QUALITY - Very detailed, slower"),
     ("3200x1800", 3200, 1800, "MAXIMUM QUALITY - Best edges, slowest")
 ]
 
-DEFAULT_EDGE_RESOLUTION_INDEX = 3
+DEFAULT_EDGE_RESOLUTION_INDEX = 4
 
 # Thermal colormap options (OpenCV constants)
 THERMAL_COLORMAPS = {
