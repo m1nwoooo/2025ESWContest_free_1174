@@ -16,7 +16,6 @@
 <br>
 
 <img width="839" height="488" alt="image" src="https://github.com/user-attachments/assets/96237be3-6a1a-4168-889c-329cfd3c8144" />
-<img width="698" height="335" alt="image" src="https://github.com/user-attachments/assets/917c33b3-8e5b-4255-b440-aeb5833047ea" />
 
 
 소방관들은 고온, 짙은 연기, 제한된 시야 속에서 구조 활동을 수행해야 합니다. 
