@@ -1,0 +1,2 @@
+Hello, We are Team Sausage.
+This is a sample text for Communication with user2server.
