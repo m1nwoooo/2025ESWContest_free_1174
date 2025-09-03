@@ -1,44 +1,44 @@
-Acknowledgments
+#Acknowledgments
 This project utilizes several open-source libraries and a pre-trained model. We extend our gratitude to the developers and contributors of these projects.
 
-Libraries
+##Libraries
 OpenCV (cv2)
 
-License: Apache 2.0 License
+###License: Apache 2.0 License
 
 Website: https://opencv.org/
 
-NumPy
+###NumPy
 
 License: BSD 3-Clause License
 
 Website: https://numpy.org/
 
-PyCoral
+###PyCoral
 
 License: Apache 2.0 License
 
 Website: https://coral.ai/
 
-gpiozero
+###gpiozero
 
 License: BSD 3-Clause License
 
 Website: https://gpiozero.readthedocs.io/
 
-pyserial
+###pyserial
 
 License: BSD 3-Clause License
 
 Website: https://github.com/pyserial/pyserial
 
-OpenMV
+###OpenMV
 
 License: MIT License
 
 Website: https://openmv.io/
 
-AI Model & Dataset
+###AI Model & Dataset
 Model: SSD MobileNet v2 (COCO)
 
 Description: This project uses the ssd_mobilenet_v2_coco_quant_postprocess_edgetpu.tflite model provided by Google for the Coral Edge TPU.
