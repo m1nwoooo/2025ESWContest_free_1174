@@ -7,7 +7,6 @@
 
 <br>
 
-- user_raspi
 firefighting/
 ├── main.py                    # 메인 실행 파일
 ├── config.py                  # 전역 설정 (상수, 경로 등)
@@ -29,9 +28,6 @@ firefighting/
 └── utils/
     ├── __init__.py
     └── file_monitor.py        # 텍스트 파일 모니터링
-- user_openmv
-	-main.py
-
 
 
 
