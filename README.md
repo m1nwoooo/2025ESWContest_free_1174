@@ -1,8 +1,20 @@
-# 2025ESWContest_free_sausage
+# 2025ESWContest_free_1174 (팀명 : 소시지)
+<br>
 
-# 개요
+## 🚀Intro
+<br>
 
-## File Architecture
+## 💡Inspiration
+<br>
+
+## 📝Overview
+<br>
+
+## ⚙️Environment
+<br>
+
+## 📂File Architecture
+<br>
     SW/
     ├── user/
     │    ├── user_raspi/                                 # Raspberry Pi 메인 시스템
@@ -41,7 +53,15 @@
     │   
     └── 후면부/
     
-#한수민통신추가
+
+# 📡한수민통신추가
+
+
+
+## 🎥Video
+<br>
+
+## 🧑‍🤝‍🧑Team Member
 
 <br>
 
