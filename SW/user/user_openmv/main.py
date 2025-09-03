@@ -26,20 +26,7 @@ def get_temperature():
     if 0.0 <= temperature <= 150.0 and pixel_avg > 0:
         return temperature, roi_size * roi_size
     else:
-        return -999.0, 0
-
-def send_temp_data(temperature, pixel_count):
-    if temperature > -900:
-        temp_string = f"TEMP:{temperature:.3f},PIXELS:{pixel_count}"
-    else:
-        temp_string = f"FIR_ERROR:-999.0,PIXELS:{pixel_count}"
-    
-    string_bytes = temp_string.encode('utf-8')
-    usb.send(struct.pack("<L", len(string_bytes)))
-    usb.send(string_bytes)
-    
-    ack = usb.recv(4, timeout=2000)
-    return ack == b"ack!"
+        return -999.0, 0 #에러 발생시
 
 sensor.reset()
 sensor.set_pixformat(sensor.GRAYSCALE)
@@ -93,19 +80,6 @@ while True:
                 
                 usb.send(struct.pack("<L", len(status)))
                 usb.send(status)
-                
-            elif cmd == b"meas":
-                was_temp_mode = temp_mode
-                if not temp_mode:
-                    setup_radiometry()
-                    time.sleep_ms(300)
-                
-                temperature, pixel_count = get_temperature()
-                send_temp_data(temperature, pixel_count)
-                
-                if not was_temp_mode:
-                    setup_agc()
-                    time.sleep_ms(150)
             
             led_blue.off()
             
