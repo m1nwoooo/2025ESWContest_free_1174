@@ -1,0 +1,8 @@
+#Note: This code is intended for review purposes only and is not meant to be executed.
+#video rx udp port: 5600, video stream_id: 0
+#audio rx udp port: 7003, video stream_id: 177_uplink
+
+#screen streaming rx
+sudo wfb_rx -p 0 -c 127.0.0.1 -u 5600 -K /etc/server.key -i 7669206 wlxfc221c30076b
+#audio rx
+sudo wfb_rx -p 49 -c 127.0.0.1 -u 7003 -K /etc/server.key -i 7669206 wlxfc221c30076b
