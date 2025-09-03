@@ -53,8 +53,6 @@ while True:
                         temp_text = f"{temperature:.1f}C"
                         img.draw_string(3, 3, temp_text, color=255, scale=1)
                         img.draw_cross(79, 59, color=255, size=6, thickness=1)
-                        pixel_text = f"px:{pixel_count}"
-                        img.draw_string(3, 25, pixel_text, color=255, scale=1)
                     else:
                         img.draw_string(3, 3, "TEMP ERR", color=255, scale=2)
                     
