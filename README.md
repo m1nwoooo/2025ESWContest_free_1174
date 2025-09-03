@@ -39,7 +39,8 @@
 ## 🔑Main Feature
 <br>
 
-<img width="1213" height="514" alt="image" src="https://github.com/user-attachments/assets/d56a5aaf-f655-4d25-87b3-41e7a9bbd4a9" />
+<img width="1916" height="1077" alt="image" src="https://github.com/user-attachments/assets/9b6c1c26-691d-4ae6-8a98-e468c8012d45" />
+
 
 
 
