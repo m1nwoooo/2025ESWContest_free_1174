@@ -1,4 +1,4 @@
 #Note: This code is intended for review purposes only and is not meant to be executed.
-#audio rx udp port: 7002, video stream_id: 177_downlink
+#audio rx udp port: 7002, video stream_id: 177_uplink
 
 sudo wfb_rx -p 177 -c 127.0.0.1 -u 7002 -K /etc/usr.key -i 7669206 wlan1
