@@ -46,3 +46,9 @@ This project utilizes several open-source libraries and a pre-trained model. We 
 - **Description**: The model was trained on the COCO dataset.
 - **Website**: https://cocodataset.org/
 - **License**: Usage of the dataset is subject to the COCO User License[](https://cocodataset.org/#termsofuse).
+
+## Framework
+
+### WFB-NG
+- **License**: GPL-3.0 License
+- **Website**: https://github.com/svpcom/wfb-ng
