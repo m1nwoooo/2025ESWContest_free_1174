@@ -50,27 +50,24 @@
 
 
 ### 영상 처리 흐름도(simple)
-<img width="1406" height="380" alt="image" src="https://github.com/user-attachments/assets/ebb17967-2d18-4036-a694-05d11ed50326" />
+<img width="703" height="190" alt="image" src="https://github.com/user-attachments/assets/ebb17967-2d18-4036-a694-05d11ed50326" />
 
 <details>
-  <summary>영상 처리 흐름도(details)</summary>
+  <summary>영상 처리 흐름도**(details**)</summary>
 <img width="1806" height="798" alt="image" src="https://github.com/user-attachments/assets/3b4638c2-569e-4948-a958-4a8693b51235" />
 </details>
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9f2d82be-13a5-46ea-9576-714268aa1e82" />
+### 모드 설정에 따른 열화상 영상 가공
 
 <details>
   <summary>Hot Mode</summary>
-
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9f2d82be-13a5-46ea-9576-714268aa1e82" />
 </details>
-
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/43f289d9-6695-4ed1-82f4-7a99c456a9d0" />
 
 <details>
   <summary>Cold Mode</summary>
-
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/43f289d9-6695-4ed1-82f4-7a99c456a9d0" />
 </details>
-
 
 <details>
   <summary>Thermal Mode</summary>
