@@ -81,45 +81,45 @@
 ## ⚙️Technology Environment
 <br>
 
-## Embedded
+### Embedded
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?logo=raspberrypi&logoColor=white)
 ![OpenMV](https://img.shields.io/badge/OpenMV-00979D?logo=arduino&logoColor=white)
 ![Coral TPU](https://img.shields.io/badge/Coral%20TPU-4285F4?logo=google&logoColor=white)
 
-## Computer Vision & AI
+### Computer Vision & AI
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
 ![TensorFlow Lite](https://img.shields.io/badge/TensorFlow%20Lite-FF6F00?logo=tensorflow&logoColor=white)
 ![PyCoral](https://img.shields.io/badge/PyCoral-4285F4?logo=google&logoColor=white)
 ![SSD MobileNet](https://img.shields.io/badge/SSD%20MobileNet-FF6F00?logo=tensorflow&logoColor=white)
 
-## Backend/Core
+### Backend/Core
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 ![Threading](https://img.shields.io/badge/Threading-3776AB?logo=python&logoColor=white)
 ![PySerial](https://img.shields.io/badge/PySerial-306998?logo=python&logoColor=white)
 
-## Hardware Interface
+### Hardware Interface
 ![GPIOZero](https://img.shields.io/badge/GPIOZero-C51A4A?logo=raspberrypi&logoColor=white)
 ![rpicam-vid](https://img.shields.io/badge/rpicam--vid-C51A4A?logo=raspberrypi&logoColor=white)
 ![Serial Communication](https://img.shields.io/badge/Serial%20Comm-00979D?logo=arduino&logoColor=white)
 ![rtl8812au](https://img.shields.io/badge/rtl8812au-000000?logo=wifi&logoColor=white)
 ![Wfb-ng](https://img.shields.io/badge/Wfb--ng-000000?logo=linux&logoColor=white)
 
-## System & OS
+### System & OS
 ![Raspberry Pi OS](https://img.shields.io/badge/Raspberry%20Pi%20OS-C51A4A?logo=raspberrypi&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![Subprocess](https://img.shields.io/badge/Subprocess-3776AB?logo=python&logoColor=white)
 
-## Image Processing
+### Image Processing
 ![Canny Edge](https://img.shields.io/badge/Canny%20Edge-5C3EE8?logo=opencv&logoColor=white)
 ![YUV420](https://img.shields.io/badge/YUV420-FF6B6B?logo=video&logoColor=white)
 ![JPEG Decode](https://img.shields.io/badge/JPEG%20Decode-5C3EE8?logo=opencv&logoColor=white)
 ![Colormap](https://img.shields.io/badge/Colormap-5C3EE8?logo=opencv&logoColor=white)
 
-## UI/Display
+### UI/Display
 ![OpenCV GUI](https://img.shields.io/badge/OpenCV%20GUI-5C3EE8?logo=opencv&logoColor=white)
 
-## Development Environment
+### Development Environment
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visualstudiocode&logoColor=white)
 ![OpenMV IDE](https://img.shields.io/badge/OpenMV%20IDE-00979D?logo=arduino&logoColor=white)
 ![Python 3.9.18](https://img.shields.io/badge/Python%203.9+-3776AB?logo=python&logoColor=white)
