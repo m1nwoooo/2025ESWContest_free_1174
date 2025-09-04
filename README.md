@@ -123,65 +123,65 @@
 <details>
   <summary>SW File Architecture </summary>
     SW/
-        ├── user/
-        │    ├── user_openmv/                       # OpenMV 열화상 카메라
-        │    │   └── main.py                        # OpenMV 카메라 제어 스크립트
-        │    └── user_raspi/  
-        │        ├── text_files/
-        │        │   └── sample.txt                             
-        │        ├── firefighting/                   # Raspberry Pi 메인 시스템
-        │        │   ├── main.py                     # 메인 실행 파일
-        │        │   ├── config.py                   # 전역 설정 (상수, 경로 등)
-        │        │   ├── core/
-        │        │   │   ├── init.py
-        │        │   │   ├── camera_manager.py       # 카메라 관리 (thermal, IR)
-        │        │   │   ├── image_processor.py      # 영상 처리 모드들
-        │        │   │   └── frame_renderer.py       # 화면 출력 관리
-        │        │   ├── ui/
-        │        │   │   ├── init.py
-        │        │   │   └── menu_system.py          # 메뉴 UI 전체
-        │        │   ├── ai/
-        │        │   │   ├── init.py
-        │        │   │   └── person_detector.py      # Coral TPU 사람 감지
-        │        │   ├── hardware/
-        │        │   │   ├── init.py
-        │        │   │   ├── gpio_controller.py      # GPIO 버튼 제어
-        │        │   │   └── serial_comm.py          # OpenMV 시리얼 통신
-        │        │   └── utils/
-        │        │       ├── init.py
-        │        │       └── file_monitor.py         # 텍스트 파일 모니터링
-        │        │
-        │        └──── communication/
-        │             ├─── key/                       # 복호화 key파일
-        │             │    ├── server.key
-        │             │    └── usr.key
-        │             │─── setup/
-        │             │    │
-        │             │    │── setup.sh              #wlan interface 설정
-        │             │    └── wifibroadcast.cfg     #ip_tunnel 설정
-        │             └─── usr_comm/
-        │                  ├── datastream/            #통신 데이터 스트림
-        │                  │   ├── audio.sh
-        │                  │   ├── heartbeat.sh
-        │                  │   └── streaming.sh
-        │                  ├── rx_codes.sh          #수신부
-        │                  └──tx_codes.sh           #송신부
-        │                
-        ├── node/
-        │  ├── forwarding.sh                        #수신후 재송신
-        │  ├── rssi.sh                              #rssi값 산출
-        │  └── nodegraph.py                         #통신맵 구성
-        │   
-        └── server/
-            ├── server_comm/
-            │  ├── datastream/                       #통신 데이터 스트림
-            │  │   ├── audio.sh
-            │  │   ├── heartbeat.sh
-            │  │   └── videostreaming.sh
-            │  ├── rx_codes.sh                     #송신부
-            │  └── tx_codes.sh                     #수신부
-            ├── ui.py                              #ui 구성
-            └── centercon.py                       #중앙 통신망 관제 시스템
+    ├── user/
+    │    ├── user_openmv/                       # OpenMV 열화상 카메라
+    │    │   └── main.py                        # OpenMV 카메라 제어 스크립트
+    │    └── user_raspi/  
+    │        ├── text_files/
+    │        │   └── sample.txt                             
+    │        ├── firefighting/                   # Raspberry Pi 메인 시스템
+    │        │   ├── main.py                     # 메인 실행 파일
+    │        │   ├── config.py                   # 전역 설정 (상수, 경로 등)
+    │        │   ├── core/
+    │        │   │   ├── init.py
+    │        │   │   ├── camera_manager.py       # 카메라 관리 (thermal, IR)
+    │        │   │   ├── image_processor.py      # 영상 처리 모드들
+    │        │   │   └── frame_renderer.py       # 화면 출력 관리
+    │        │   ├── ui/
+    │        │   │   ├── init.py
+    │        │   │   └── menu_system.py          # 메뉴 UI 전체
+    │        │   ├── ai/
+    │        │   │   ├── init.py
+    │        │   │   └── person_detector.py      # Coral TPU 사람 감지
+    │        │   ├── hardware/
+    │        │   │   ├── init.py
+    │        │   │   ├── gpio_controller.py      # GPIO 버튼 제어
+    │        │   │   └── serial_comm.py          # OpenMV 시리얼 통신
+    │        │   └── utils/
+    │        │       ├── init.py
+    │        │       └── file_monitor.py         # 텍스트 파일 모니터링
+    │        │
+    │        └──── communication/
+    │             ├─── key/                       # 복호화 key파일
+    │             │    ├── server.key
+    │             │    └── usr.key
+    │             │─── setup/
+    │             │    │
+    │             │    │── setup.sh              #wlan interface 설정
+    │             │    └── wifibroadcast.cfg     #ip_tunnel 설정
+    │             └─── usr_comm/
+    │                  ├── datastream/            #통신 데이터 스트림
+    │                  │   ├── audio.sh
+    │                  │   ├── heartbeat.sh
+    │                  │   └── streaming.sh
+    │                  ├── rx_codes.sh          #수신부
+    │                  └──tx_codes.sh           #송신부
+    │                
+    ├── node/
+    │  ├── forwarding.sh                        #수신후 재송신
+    │  ├── rssi.sh                              #rssi값 산출
+    │  └── nodegraph.py                         #통신맵 구성
+    │   
+    └── server/
+        ├── server_comm/
+        │  ├── datastream/                       #통신 데이터 스트림
+        │  │   ├── audio.sh
+        │  │   ├── heartbeat.sh
+        │  │   └── videostreaming.sh
+        │  ├── rx_codes.sh                     #송신부
+        │  └── tx_codes.sh                     #수신부
+        ├── ui.py                              #ui 구성
+        └── centercon.py                       #중앙 통신망 관제 시스템
 </details>
 
 <details>
