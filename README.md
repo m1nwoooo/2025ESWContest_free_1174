@@ -1,4 +1,4 @@
-# 2025ESWContest_free_1174 (팀명 : 소시지)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a92897da-3f4a-4c78-b55a-b325b3bd6dc9" /># 2025ESWContest_free_1174 (팀명 : 소시지)
 <br>
 작품명: 열화상•적외선 기반 실시간 시야 확보 및 로컬 통신 지원 다기능 모듈형 헬멧
 
@@ -36,8 +36,13 @@
 ## 📝Overview
 <br>
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/37b1c5df-90c2-481e-9a2d-2e887730ee66" />
+
+
+
 ## 🔑Main Feature
 <br>
+
 
 <img width="1806" height="798" alt="image" src="https://github.com/user-attachments/assets/3b4638c2-569e-4948-a958-4a8693b51235" />
 
@@ -146,8 +151,8 @@
 
 | 팀원 | 역할 |
 |----------|----------|
-| 김상만(팀장)  | ㅇ  |
-| 조민우   | ㅇ |
-| 한수민 | ㅇ |
-| 박나영 | ㅇ | 
-| 하은지 | ㅇ | 
+| 김상만(팀장)  | 총괄, 3D 모델링 & 3D 프린팅 |
+| 조민우   | 영상 제작, HW 제어, UI 제작 |
+| 한수민 | 통신망 구축, 서버 구축 |
+| 박나영 | HW 제작, 3D 모델링, 성능 테스트 및 디버깅 | 
+| 하은지 | 3D 모델링, 장치 배선, 안전 및 전원 관리리 | 
