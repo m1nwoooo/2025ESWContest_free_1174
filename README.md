@@ -151,7 +151,7 @@
 
 <br>
 
-<img width="901" height="1600" alt="image" src="https://github.com/user-attachments/assets/797abd56-19be-420c-ad6e-0ebeeb477aa8" />
+<img width="300" height="533" alt="image" src="https://github.com/user-attachments/assets/797abd56-19be-420c-ad6e-0ebeeb477aa8" />
 
 | 팀원 | 역할 |
 |----------|----------|
