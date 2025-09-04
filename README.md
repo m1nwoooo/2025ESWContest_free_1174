@@ -34,7 +34,7 @@
 <br>
 
 <img width="505" height="209" alt="image" src="https://github.com/user-attachments/assets/9b8b336a-b8d6-4403-a057-52214e9b7299" />
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/37b1c5df-90c2-481e-9a2d-2e887730ee66" />
+<img width="1080" height="600" alt="image" src="https://github.com/user-attachments/assets/37b1c5df-90c2-481e-9a2d-2e887730ee66" />
 
 본 작품은 임베디드 환경에서 사용자에게 실시간 열화상 & 적외선 영상을 제공함과 동시에 edge 검출, 객체 인식, 온도 등의 다양한 정보를 전달합니다. 
 또한, 자체적인 서버망을 구축하여 재난 통신망, 군 통신망 등의 특정 통신망에서도 적합하게 사용될 가능성을 제시합니다.
