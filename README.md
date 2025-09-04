@@ -1,16 +1,12 @@
 # 2025ESWContest_free_1174 (팀명 : 소시지)
-<br>
 작품명: 열화상•적외선 기반 실시간 시야 확보 및 로컬 통신 지원 다기능 모듈형 헬멧
 
 ## 🚀Intro
-<br>
-
 **"어둠 속 안전을 밝힌다."** ⬛ → 💡 → ✅
 
 저희 팀은 제한된 환경에서 적외선, 열화상 정보를 사용자 친화적으로 제공하여 안전성과 효율성을 증대시키고자 합니다.
 
 ## 💡Inspiration
-<br>
 
 <img width="630" height="366" alt="image" src="https://github.com/user-attachments/assets/96237be3-6a1a-4168-889c-329cfd3c8144" />
 
@@ -31,7 +27,6 @@
 
 
 ## 📝Overview
-<br>
 
 <img width="505" height="209" alt="image" src="https://github.com/user-attachments/assets/9b8b336a-b8d6-4403-a057-52214e9b7299" />
 <img width="1218" height="600" alt="image" src="https://github.com/user-attachments/assets/5cd7cd8f-5411-4345-b2f8-92cc5f6ee9f7" />
@@ -46,9 +41,6 @@
 
 
 ## 🔑Main Feature
-<br>
-
-
 ### 영상 처리 흐름도(simple)
 <img width="703" height="190" alt="image" src="https://github.com/user-attachments/assets/ebb17967-2d18-4036-a694-05d11ed50326" />
 
@@ -128,8 +120,6 @@
 
 
 ## 📂File Architecture
-<br>
-
 <details>
   <summary>SW File Architecture </summary>
         SW/
@@ -246,7 +236,6 @@
 
 
 ## 🎥Video
-<br>
 
 유튜브 링크: https://www.youtube.com/watch?v=UqA-5wN_xS8&feature=youtu.be
 
