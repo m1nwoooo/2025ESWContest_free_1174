@@ -120,8 +120,11 @@
 
 
 ## 📂File Architecture
+<br>
+
 <details>
   <summary>SW File Architecture </summary>
+  
     SW/
     ├── user/
     │    ├── user_openmv/                       # OpenMV 열화상 카메라
