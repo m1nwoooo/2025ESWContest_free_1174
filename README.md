@@ -86,22 +86,52 @@
     └── server/
 
 
-        HW/
-    ├── 본체/
-    │    
-    ├── 정면부/
-    │   
-    │   
-    └── 후면부/
+HW/
+├── front_part/
+│    ├── main/                       # 본체
+│    │   ├── main_RaspberryPi_top.stl 
+│    │   ├── main_RaspberryPi_bottom.stl
+│    │   ├── main_wifi_top.stl
+│    │   ├── main_wifi_bottom.stl
+│    │   ├── main_coral_top.stl
+│    │   └── main_coral_bottom.stl
+│    ├── cam_binder/              # 캠 바운더
+│    │   ├── cam_top.stl
+│    │   ├── cam_bottom.stl
+│    │   ├── helmet_mount_top.stl
+│    │   └── helmet_mount_bottom.stl
+│    └── remote_control/         # 리모컨
+│          ├── remote_control_top.stl
+│          ├── remote_control_mid.stl
+│          ├── remote_control_bottom.stl
+│          ├── remote_control_cap_circle.stl
+│          ├── remote_control_cap_triangle.stl
+│          └── remote_control_cap_M.stl
+│   
+├── right_part/
+│    ├── antenna/                   # 안테나
+│    │   └── antenna.stl
+│    └── display/                    # 디스플레이
+│          ├── display_binder_top.stl
+│          ├── display_binder_mid.stl
+│          ├── display_binder_bottom.stl
+│          ├── display_arm_top.stl
+│          └── display_arm_bottom.stl
+│   
+├── left_part/
+│    ├── light/                       # 라이트
+│    │   ├── light_ir_cover.stl
+│    │   ├── light_rail_top.stl
+│    │   └── light_rail_bottom.stl
+│    └── speaker/                   # 스피커
+│          ├── speaker_left.stl
+│          └── speaker_right.stl
+│   
+└── communication_part/
+       └── node/                      # 노드
+             ├── node_top.stl
+             └── node_bottom.stl
 
-
-        HW/
-    ├── 본체/
-    │    
-    ├── 정면부/
-    │   
-    │   
-    └── 후면부/
 
 
 
