@@ -1,12 +1,9 @@
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a92897da-3f4a-4c78-b55a-b325b3bd6dc9" /># 2025ESWContest_free_1174 (팀명 : 소시지)
+# 2025ESWContest_free_1174 (팀명 : 소시지)
 <br>
 작품명: 열화상•적외선 기반 실시간 시야 확보 및 로컬 통신 지원 다기능 모듈형 헬멧
 
-
 ## 🚀Intro
 <br>
-
-
 
 **"어둠 속 안전을 밝힌다."** ⬛ → 💡 → ✅
 
@@ -36,7 +33,12 @@
 ## 📝Overview
 <br>
 
+<img width="1010" height="418" alt="image" src="https://github.com/user-attachments/assets/9b8b336a-b8d6-4403-a057-52214e9b7299" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/37b1c5df-90c2-481e-9a2d-2e887730ee66" />
+
+본 작품은 임베디드 환경에서 사용자에게 실시간 열화상 & 적외선 영상을 제공함과 동시에 edge 검출, 객체 인식, 온도 등의 다양한 정보를 전달합니다. 
+또한, 자체적인 서버망을 구축하여 재난 통신망, 군 통신망 등의 특정 통신망에서도 적합하게 사용될 가능성을 제시합니다.
+뿐만 아니라, 다양한 기능들을 HW, SW적으로 모듈화하여 사용자 친화적으로 구현하였습니다.
 
 
 
@@ -140,14 +142,16 @@
                 └── node_bottom.stl
 
 
-
-
 ## 🎥Video
 <br>
+
+유튜브 링크: 
 
 ## 🧑‍🤝‍🧑Team Member
 
 <br>
+
+<img width="901" height="1600" alt="image" src="https://github.com/user-attachments/assets/797abd56-19be-420c-ad6e-0ebeeb477aa8" />
 
 | 팀원 | 역할 |
 |----------|----------|
