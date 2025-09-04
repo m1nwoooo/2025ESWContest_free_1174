@@ -33,7 +33,7 @@
 ## 📝Overview
 <br>
 
-<img width="1010" height="418" alt="image" src="https://github.com/user-attachments/assets/9b8b336a-b8d6-4403-a057-52214e9b7299" />
+<img width="505" height="209" alt="image" src="https://github.com/user-attachments/assets/9b8b336a-b8d6-4403-a057-52214e9b7299" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/37b1c5df-90c2-481e-9a2d-2e887730ee66" />
 
 본 작품은 임베디드 환경에서 사용자에게 실시간 열화상 & 적외선 영상을 제공함과 동시에 edge 검출, 객체 인식, 온도 등의 다양한 정보를 전달합니다. 
@@ -46,10 +46,35 @@
 <br>
 
 
-<img width="1806" height="798" alt="image" src="https://github.com/user-attachments/assets/3b4638c2-569e-4948-a958-4a8693b51235" />
-
-
+### 영상 처리 흐름도(simple)
 <img width="1406" height="380" alt="image" src="https://github.com/user-attachments/assets/ebb17967-2d18-4036-a694-05d11ed50326" />
+
+<details>
+  <summary>영상 처리 흐름도(details)</summary>
+<img width="1806" height="798" alt="image" src="https://github.com/user-attachments/assets/3b4638c2-569e-4948-a958-4a8693b51235" />
+</details>
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9f2d82be-13a5-46ea-9576-714268aa1e82" />
+
+<details>
+  <summary>Hot Mode</summary>
+
+</details>
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/43f289d9-6695-4ed1-82f4-7a99c456a9d0" />
+
+<details>
+  <summary>Cold Mode</summary>
+
+</details>
+
+
+<details>
+  <summary>Thermal Mode</summary>
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8d30984a-c78d-4fd2-926e-fb65c0280993" />
+</details>
+
+
 
 
 
@@ -59,40 +84,66 @@
 ## 📂File Architecture
 <br>
 
-    SW/
-    ├── user/
-    │    ├── user_openmv/                       # OpenMV 열화상 카메라
-    │    │   └── main.py                        # OpenMV 카메라 제어 스크립트
-    │    ├── user_raspi/  
-    │    │   ├── text_files/
-    │    │   │   └── sample.txt                             
-    │    │   └── firefighting/                   # Raspberry Pi 메인 시스템
-    │    │       ├── main.py                     # 메인 실행 파일
-    │    │       ├── config.py                   # 전역 설정 (상수, 경로 등)
-    │    │       ├── core/
-    │    │       │   ├── init.py
-    │    │       │   ├── camera_manager.py       # 카메라 관리 (thermal, IR)
-    │    │       │   ├── image_processor.py      # 영상 처리 모드들
-    │    │       │   └── frame_renderer.py       # 화면 출력 관리
-    │    │       ├── ui/
-    │    │       │   ├── init.py
-    │    │       │   └── menu_system.py          # 메뉴 UI 전체
-    │    │       ├── ai/
-    │    │       │   ├── init.py
-    │    │       │   └── person_detector.py      # Coral TPU 사람 감지
-    │    │       ├── hardware/
-    │    │       │   ├── init.py
-    │    │       │   ├── gpio_controller.py      # GPIO 버튼 제어
-    │    │       │   └── serial_comm.py          # OpenMV 시리얼 통신
-    │    │       └── utils/
-    │    │           ├── init.py
-    │    │           └── file_monitor.py         # 텍스트 파일 모니터링
-    │    └──user_communication/
-    │    
-    ├── node/
-    │   
-    │   
-    └── server/
+        SW/
+        ├── user/
+        │    ├── user_openmv/                       # OpenMV 열화상 카메라
+        │    │   └── main.py                        # OpenMV 카메라 제어 스크립트
+        │    ├── user_raspi/  
+        │        ├── text_files/
+        │        │   └── sample.txt                             
+        │        |── firefighting/                   # Raspberry Pi 메인 시스템
+        │        |   ├── main.py                     # 메인 실행 파일
+        │        |   ├── config.py                   # 전역 설정 (상수, 경로 등)
+        │        |   ├── core/
+        │        |   │   ├── init.py
+        │        |   │   ├── camera_manager.py       # 카메라 관리 (thermal, IR)
+        │        |   │   ├── image_processor.py      # 영상 처리 모드들
+        │        |   │   └── frame_renderer.py       # 화면 출력 관리
+        │        |   ├── ui/
+        │        |   │   ├── init.py
+        │        |   │   └── menu_system.py          # 메뉴 UI 전체
+        │        |   ├── ai/
+        │        |   │   ├── init.py
+        │        |   │   └── person_detector.py      # Coral TPU 사람 감지
+        │        |   ├── hardware/
+        │        |   │   ├── init.py
+        │        |   │   ├── gpio_controller.py      # GPIO 버튼 제어
+        │        |   │   └── serial_comm.py          # OpenMV 시리얼 통신
+        │        |   └── utils/
+        │        |       ├── init.py
+        │        |       └── file_monitor.py         # 텍스트 파일 모니터링
+        │        |
+        |        |___ communication/
+        |             |___ key                       # 복호화 key파일
+        |             |    |__ server.key
+        |             |    |__ usr.key
+        |             |___ setup
+        |             |    |
+        |             |    |__ setup.sh              #wlan interface 설정
+        |             |    |__ wifibroadcast.cfg     #ip_tunnel 설정
+        |             |___ usr_comm
+        |                  |__ datastream            #통신 데이터 스트림
+        |                  |   |__ audio.sh
+        |                  |   |__ heartbeat.sh
+        |                  |   |__ streaming.sh
+        |                  |__ rx_codes.sh          #수신부
+        |                  |__tx_codes.sh           #송신부
+        |                
+        ├── node/
+        |  |__ forwarding.sh                        #수신후 재송신
+        |  |__ rssi.sh                              #rssi값 산출
+        |  |__ nodegraph.py                         #통신맵 구성
+        │   
+        └── server/
+            |__ server_comm
+            |  |__ datastream                       #통신 데이터 스트림
+            |  |   |__ audio.sh
+            |  |   |__ heartbeat.sh
+            |  |   |__ videostreaming.sh
+            |  |__ rx_codes.sh                     #송신부
+            |  |__ tx_codes.sh                     #수신부
+            |__ ui.py                              #ui 구성
+            |__ centercon.py                       #중앙 통신망 관제 시스템
 
 
     HW/
